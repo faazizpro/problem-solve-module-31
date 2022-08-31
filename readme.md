@@ -9,7 +9,8 @@ number.
 return/get all the elements which are divisible by 10 using
 array.filter() method.
 
-3) Now do the same task of question 2. But do this using array
+3) Now do the same task of question 2. But do this using array.find()
+method. Then compare the output of question 2 & question 3.
 
                                 Practice Problem reduce()
 1) You have an array [ 1, 9, 17, 22 ]. Add the all elements

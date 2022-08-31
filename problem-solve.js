@@ -34,5 +34,10 @@ array.filter() method.
 */
 
 const numbers = [33, 50, 79, 78, 90, 101, 30 ];
-const divisibleArray = numbers.filter(number => number % 10);
+const divisibleArray = numbers.filter(number => number % 10 === 0);
 console.log(divisibleArray);
+
+// 3) Now do the same task of question 2. But do this using array
+
+const divisibleArray2 = numbers.find(number => number % 10 === 0);
+console.log(divisibleArray2);
