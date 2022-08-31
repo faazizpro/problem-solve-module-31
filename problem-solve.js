@@ -25,5 +25,14 @@ for(let i = 0; i < myArray.length; i++){
     let evenNumber = myArray[i]+1;
     evenArray.push(evenNumber);
 }
-console.log(evenArray);
+// console.log(evenArray);
 
+/*
+2) You are given an array say: [33, 50, 79, 78, 90, 101, 30 ]. Now
+return/get all the elements which are divisible by 10 using
+array.filter() method.
+*/
+
+const numbers = [33, 50, 79, 78, 90, 101, 30 ];
+const divisibleArray = numbers.filter(number => number % 10);
+console.log(divisibleArray);
