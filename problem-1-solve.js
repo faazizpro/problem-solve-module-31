@@ -35,9 +35,18 @@ array.filter() method.
 
 const numbers = [33, 50, 79, 78, 90, 101, 30 ];
 const divisibleArray = numbers.filter(number => number % 10 === 0);
-console.log(divisibleArray);
+// console.log(divisibleArray);
 
 // 3) Now do the same task of question 2. But do this using array
 
 const divisibleArray2 = numbers.find(number => number % 10 === 0);
-console.log(divisibleArray2);
+// console.log(divisibleArray2);
+
+/*
+                                Practice Problem reduce()
+1) You have an array [ 1, 9, 17, 22 ]. Add the all elements
+of this array and give output. Do this using for loop &
+array.reduce() method. 
+*/
+
+const numArray = [ 1, 9, 17, 22 ];
